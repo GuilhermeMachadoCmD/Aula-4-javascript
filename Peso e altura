@@ -1,0 +1,25 @@
+function calcularImc(altura, peso) {
+            return peso / (altura * altura);
+        }
+
+        var informeNome = prompt("  Por favor informe o seu nome");
+        var informePeso = prompt(informeNome +" ,por favor informe o seu peso (Sem ponto ou virgula)");
+        var informeAltura = prompt(informeNome + "  ,por favor informe a sua altura (Sem ponto ou virgula)");
+    
+        var imc = informePeso / (informeAltura * informeAltura);
+
+        if (imc <= 18.5) {
+            alert(informeNome + "   Seu imc é "+ Math.round(imc) + " você esta abaixo do peso!");
+            
+        } else if (imc >= 18.5 &&  imc <= 24.9) {
+            alert(informeNome + "   Seu imc é " + Math.round(imc) + " você está com o seu peso!");
+            
+        } else if (imc >= 25 && imc <= 29.9) {
+            alert(informeNome + "   Seu imc é "+ Math.round(imc) + " você está acima do peso !");
+        } 
+        else if (imc >= 30 ) {
+            alert(informeNome + "   Seu imc é "+ Math.round(imc) + " você está gordinho!");
+            
+        }
+    
+    </script>
