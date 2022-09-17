@@ -1,0 +1,12 @@
+  <script>
+  var estadocivil;
+    var idade;
+    var sexo;
+  while (repetidor != "N") {
+		var idade = prompt("Digite sua idade: ");
+		var sexo = prompt("Selecione seu sexo: Masculino (M) ;  Feminino (F): ");
+		var repetidor = prompt("Deseja continuar?: S / N");
+		var total = total + 1;}
+        if (estadocivil == "Estado civil")
+			
+    </script>
